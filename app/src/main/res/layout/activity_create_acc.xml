@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createAcc"
+    android:orientation="vertical"
+    android:background="@drawable/img_4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new Account"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/createemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="100dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/createpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:hint="Password"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        />
+    <Button
+        android:id="@+id/createacc"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        />
+    <TextView
+        android:id="@+id/alreadyhaveaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account?  Log In"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        />
+</LinearLayout>
+

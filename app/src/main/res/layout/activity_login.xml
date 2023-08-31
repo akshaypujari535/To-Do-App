@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_"
+    android:orientation="vertical"
+    android:background="@drawable/img_4"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In to Account"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter your Email"
+        android:background="@drawable/shape"
+        android:padding="15dp"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/shape"
+        android:hint="Create Password"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log IN"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        />
+    <TextView
+        android:id="@+id/createnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account ?"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
